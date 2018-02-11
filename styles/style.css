@@ -1,0 +1,56 @@
+@font-face {
+    font-family: roboto;
+    *src: url(../fonts/Roboto-Regular-webfont.woff);
+ 	src: local('../fonts/Roboto-Regular-webfont'),
+        url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#icomoonregular') format('svg');
+}
+
+
+div{
+	width: 100%;
+}
+html, body{
+	width: 100%;
+}
+main{
+	width: 70%;
+	font-size: 1rem;
+	margin: 2% auto;
+	border: thin solid #e3e3e3;
+	border-radius: 3px;
+	padding: 2% ;
+	text-align: center;
+	font-family: roboto;
+	
+}
+main *{
+	margin: 0.4rem;
+}
+textarea{
+	width: 70%;
+	border: thin solid #e3e3e3;
+	border-radius: 3px;
+	padding: 2%;
+}
+
+input{
+	border: thin solid #e3e3e3;
+	border-radius: 3px;
+	padding: 0.3rem ;
+	width: 30%;
+}
+
+button{
+	border: thin solid #e3e3e3;
+	border-radius: 3px;
+	background: white;
+	padding: 0.4rem;
+	transition: background ease-in 0.3s;
+}
+
+button:hover{
+	background: antiquewhite;
+}
